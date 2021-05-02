@@ -16,3 +16,7 @@ Para tener una consola bonita usar el comando `su` con el argumento `-s /bin/bas
 ```console
 ~# su -s /bin/bash username
 ```
+Otra opción es modificar el archivo `etc/passwd` y modificar el shell por defecto del usuario 
+```
+username:x:1000:1000::/home/rodrigo:/bin/bash
+```
