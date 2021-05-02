@@ -14,5 +14,5 @@ Y agregarlo a grupo sudo
 ``` 
 Para tener una consola bonita usar el comando `su` con el argumento `-s /bin/bash`
 ```console
-# su -s /bin/bash rodrigo
+~# su -s /bin/bash username
 ```
