@@ -77,5 +77,5 @@ A TODO list needed in order to use GoPhish
 - Download the GoPhish code from its [git hub repository](https://github.com/gophish/gophish)
 - Run de GoPhish server 
 
-It is desirable that we don't use IP addresses in out attacks, it is better to have a domain, you can buy a domain in sites like [GoDaddy](https://www.godaddy.com/). Once we have a domain we need to get a certificate for it. There are sites like  [ZeroSSL](https://zerossl.com/) which can issue a certificate for FREE that ara valid for 90 Days.
+It is desirable that we don't use IP addresses in out attacks, it is better to have a domain, you can buy a domain in sites like [GoDaddy](https://www.godaddy.com/). Once we have a domain we need to get a certificate for it. There are sites like  [ZeroSSL](https://zerossl.com/) which can issue a certificate for FREE that ara valid for 90 Days. In order to proof that we have control of the domain ZeroSSL ask you to add some DNS register, we add this register in the DNS configuration of the domain provider.
 
