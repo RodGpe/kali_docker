@@ -47,3 +47,35 @@ Use the command
 python3 -m http.server 80
 ```
 It will mount an http server listening on the port 80, and it  will serve any file in the current working directory
+
+## explainshell.com
+
+In the [explainshell.com](https://explainshell.com/) site you can input a command and it will discribe what it does.
+
+## Port listener with netcat
+
+Use netcat to setup a net listener:
+```console
+nc -lvnp 443
+-l listen mode
+-v verbose
+-n numeric-only IP 
+-p port 
+```
+
+## Gobuster
+
+List directories of a web server. Use:
+```console
+gobuster dir -u 10.10.10.28  -w /usr/share/dirbuster/wordlists/directory-list-2.3-small.txt
+```
+That wordlist in the example is one of the wordlists that comes with the `dirbuster` command instalation.
+
+# Phising with GoPhish
+A TODO list needed in order to use GoPhish
+- Get a server with a public IP address (you can use a VPS service like [digital ocean](https://www.digitalocean.com/) or [OVH](https://www.ovhcloud.com/en/vps/cheap-vps/) 
+- Download the GoPhish code from its [git hub repository](https://github.com/gophish/gophish)
+- Run de GoPhish server 
+
+It is desirable that we don't use IP addresses in out attacks, it is better to have a domain, you can buy a domain in sites like [GoDaddy](https://www.godaddy.com/). Once we have a domain we need to get a certificate for it. There are sites like  [ZeroSSL](https://zerossl.com/) which can issue a certificate for FREE that ara valid for 90 Days.
+
